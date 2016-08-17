@@ -1,0 +1,43 @@
+{
+  "name": "is-unity",
+  "version": "0.1.0",
+  "description": "Check if the current session runs Unity desktop",
+  "license": "MIT",
+  "repository": "t1st3/is-unity",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "unity",
+    "desktop",
+    "environment",
+    "detect",
+    "check"
+  ],
+  "dependencies": {
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "nyc": "^8.1.0",
+    "xo": "*"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
