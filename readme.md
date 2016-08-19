@@ -31,6 +31,7 @@ Is a promise.
 
 ## Related
 
+* [desktop-env](https://github.com/t1st3/desktop-env) | A desktop environment detector based on this module and the following ones
 * [is-cinnamon](https://github.com/t1st3/is-cinnamon) | Check if the current session runs [Cinnamon desktop](https://github.com/linuxmint/Cinnamon).
 * [is-gnome](https://github.com/t1st3/is-gnome) | Check if the current session runs [Gnome desktop](https://www.gnome.org/).
 * [is-kde](https://github.com/t1st3/is-kde) | Check if the current session runs [KDE desktop](https://www.kde.org/).
