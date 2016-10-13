@@ -1,8 +1,6 @@
 import test from 'ava';
 import isUnity from './';
 
-test('is-unity', t => {
-	return isUnity().then(data => {
-		t.false(data);
-	});
+test('is-unity', async t => {
+	t.is(await isUnity(), false);
 });
