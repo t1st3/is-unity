@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "ava": "*",
-    "nyc": "^8.1.0",
+    "nyc": "^9.0.1",
     "xo": "*"
   },
   "nyc": {
