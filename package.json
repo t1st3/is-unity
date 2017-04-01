@@ -1,6 +1,6 @@
 {
   "name": "is-unity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if the current session runs Unity desktop",
   "license": "MIT",
   "repository": "t1st3/is-unity",
