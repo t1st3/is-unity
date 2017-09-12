@@ -26,7 +26,7 @@ isUnity().then(data => {
 
 ### isUnity()
 
-Is a promise.
+Returns a `Promise` that resolves either to `true` or `false`.
 
 
 ## Related
@@ -43,4 +43,4 @@ Is a promise.
 
 ## License
 
-MIT © [t1st3](http://tiste.org)
+MIT © [t1st3](https://t1st3.com)
