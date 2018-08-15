@@ -27,7 +27,7 @@
     "check"
   ],
   "dependencies": {
-    "pify": "^3.0.0"
+    "pify": "^4.0.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
