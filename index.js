@@ -8,9 +8,11 @@ const f = function (cb) {
 		if (error) {
 			cb(null, false);
 		}
+
 		if ((stdout).length > 0) {
 			cb(null, true);
 		}
+
 		cb(null, false);
 	});
 };
