@@ -1,20 +1,21 @@
 'use strict';
 
 const {exec} = require('child_process');
-const pify = require('pify');
 
-const f = function (cb) {
+module.exports = new Promise((resolve, reject) => {
 	exec('ps -e | grep -E \'unity-panel\'', (error, stdout) => {
 		if (error) {
-			cb(null, false);
+			if (error.killed === false && error.signal === null) {
+				resolve(false);
+			}
+
+			reject(error);
 		}
 
 		if ((stdout).length > 0) {
-			cb(null, true);
+			resolve(true);
 		}
 
-		cb(null, false);
+		resolve(false);
 	});
-};
-
-module.exports = pify(f);
+});

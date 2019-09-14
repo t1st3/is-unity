@@ -1,6 +1,6 @@
 {
   "name": "is-unity",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Check if the current session runs Unity desktop",
   "license": "MIT",
   "repository": "t1st3/is-unity",
@@ -26,9 +26,7 @@
     "detect",
     "check"
   ],
-  "dependencies": {
-    "pify": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^2.3.0",
     "nyc": "^14.1.1",

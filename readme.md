@@ -15,7 +15,7 @@ $ npm install --save is-unity
 ```js
 const isUnity = require('is-unity');
 
-isUnity().then(data => {
+isUnity.then(data => {
   console.log(data);
   //=> true or false
 });
